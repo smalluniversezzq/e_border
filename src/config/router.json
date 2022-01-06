@@ -1,0 +1,293 @@
+{
+  "路由表":"路由表",
+  "E跨境首页":{
+    "home":"E跨境首页"
+  },
+  "产品管理":{
+    "product":"产品管理",
+    "child":[
+      {
+        "collection-editing":"采集/认领",
+        "child":{
+          //采集商品
+          "product_scllect":"product_scllect",
+          // 批量删除（存在）
+          "product_delAll":"product_delAll",
+          // 采集商品（存在）
+          "product_scllect":"product_scllect",
+          // 批量认领
+          "product_claim_all":"product_claim_all",
+          // 删除 （存在）
+          "product_del":"product_del",
+          // 认领
+          "product_claim":"product_claim"
+        }
+      },
+      {
+        "amazonProduct-manage":"Amazon产品列表",
+        "child":{
+          //产品列表
+          "amazon_product_list":'amazon_product_list',
+          //name:"批量导出",
+          "product_exportAll":"product_exportAll",
+          //name:"批量编辑",
+          "product_editAll":"product_editAll",
+          // 新增商品
+          "product_add":"product_add",
+          //name:"批量删除",
+          "product_delAll":"product_delAll",
+          //name:"删除",
+          "release_del":"release_del",
+          // 编辑
+          "release_edit":"release_edit",
+              //name:"一键复制",
+          product_copy:"product_copy",
+              //name:"加入发布",
+          product_release:"product_release",
+
+
+          //产品发布
+          "amazon_product_release":'amazon_product_release',
+          //name:"加入发布",
+          release_joinRelease:"release_joinRelease",
+          //name:"待发布",
+          history_all:"history_all",
+          //name:"上传中列表",
+          history_loding:"history_loding",
+          //name:"上传成功列表",
+          history_success:"history_success",
+          //name:"上传失败列表",
+          history_error:"history_error",
+          //name:"一键发布",
+          history_updata:"history_updata",
+
+          //产品榜单（存在）
+          "billList_list":'billList_list',
+          //自定义分类,
+          "amazon_class":"amazon_class"
+        }
+      },
+      {
+        "shopeeProduct-manage":"Shopee产品列表",
+        "child":{
+          "shopee_product_list":'shopee_product_list',
+          child:{
+              //name:"批量导出",
+             "shopee_product_exportAll":"shopee_product_exportAll",
+             //name:"批量编辑",
+             "shopee_product_editAll":"shopee_product_editAll",
+             //name:"批量删除",
+             "shopee_product_delAll":"shopee_product_delAll",
+             //name:"删除",
+             "shopee_release_del":"shopee_release_del",
+             // 编辑
+             "shopee_release_edit":"shopee_release_edit",
+             // 新增商品
+             "shopee_product_add":"shopee_product_add",
+             // 加入发布
+             "shopee_product_joinPublishing":"shopee_product_joinPublishing"
+          },
+          //产品发布
+          "shopee_product_release":'shopee_product_release',
+          "child":{
+            //name:"待发布",
+            shopee_history_all:"shopee_history_all",
+            //name:"上传中列表",
+            shopee_history_loding:"shopee_history_loding",
+            //name:"上传成功列表",
+            shopee_history_success:"shopee_history_success",
+            //name:"上传失败列表",
+            shopee_history_error:"shopee_history_error",
+
+            //name:"批量导出",
+            "shopee_product_exportAll":"shopee_product_exportAll",
+            //name:"批量删除",
+            "shopee_product_delAll":"shopee_product_delAll",
+            //name:"删除",
+            "shopee_release_del":"shopee_release_del",
+            // 编辑
+            "shopee_release_edit":"shopee_release_edit",
+             // 一键发布
+             "shopee_release_joinPublishing":"shopee_release_joinPublishing"
+          }
+        }
+      },
+      {
+        "product-followUp":"跟卖采集",
+        "child":{
+          // 开始采集
+          "followup_colle":'followup_colle',
+          // 上架
+          "followup_upperShelf":'followup_upperShelf',
+          // 保存并更新
+          "followup_usubmitUpdata":'followup_usubmitUpdata',
+          // 下架
+          "followup_lowerShelf":'followup_lowerShelf',
+          // 删除
+          "followup_del":'followup_del',
+          // 定时任务 请选择定时规则
+          "followup_timer":'followup_timer'
+        }
+      },
+      {
+        "product-followMonitor":"跟卖监控",
+        "child":{
+          "followMonitor_upload":'followMonitor_upload',
+          "followMonitor_add":'followMonitor_add',
+          "followMonitor_deleted":'followMonitor_deleted',
+          "followMonitor_crawl":'followMonitor_crawl'
+        }
+      },
+     {
+      "product-blacklist":"黑名单",
+      "child":{
+        //添加关键词 （存在）
+        "blacklist_addWord":"blacklist_addWord",
+        //编辑 （存在）
+        "blacklist_edit":"blacklist_edit",
+        //删除 （存在）
+        "blacklist_del":"blacklist_del"
+      }
+     }
+    ]
+    },
+  "订单":{
+    "order":"订单",
+    "child":[
+      {
+        "amazon-order-manage":"amazon订单",
+        "child":{
+           // 新增订单
+          "amazon_add_order":'amazon_add_order',
+          //  批量审核（存在）
+          "order_examineAll":'order_examineAll',
+          //  批量发货（存在）
+          "order_goodsOutAll":"order_goodsOutAll",
+          //  订单详情  （存在）
+          "order_details":"order_details",
+          //  获取运单号（存在）
+          "order_getNumber":"order_getNumber",
+          //  修改物流方式（存在）
+          "order_editLogistics":"order_editLogistics"
+        }
+      },
+      {
+        "shopee-order-manage":"shopee订单",
+        "child":{
+          // 印刷
+          "shopee_printing":"shopee_printing",
+
+          //  标记已完成
+          "shopee_mark_complete":"shopee_mark_complete",
+          //  填写备注单号
+          "shopee_note_no":"shopee_note_no",
+          //订单详情
+          "shopee_order_details":"shopee_order_details"
+        }
+      }
+    ]
+    
+    },
+    "物流管理":{
+      "logistics":"物流管理",
+      "child":[
+        {
+          "logistics-logisticsList":"物流列表",
+          "child":{}
+        },
+        {
+          "logistics-address":"仓库地址",
+          "child":{}
+        },
+        {
+          "freight":"运费测算",
+          "child":{
+            "freight":"freight"
+          } 
+        }
+      ]
+    },
+    "数据报表":{
+      "report":"数据报表",
+      "child":[
+        {
+          "report-summary":"数据汇总",
+          "child":{
+        //数据报表 report 
+          //name:"自定义数据",
+          "report_custom":"report_custom",
+          // name:"导出",
+          "report_export":"report_export"
+          }
+        },
+        {
+          "report-statistics":"图表统计",
+          "child":{
+          //图表统计 chart
+            "chart":"chart"
+          }
+        }
+      ]
+    },
+    "系统设置":{
+      "systemSetings":"系统设置",
+      "child":[
+        {
+          "systemSetings-myInfo":"我的账号",
+          "child":{
+          }
+        },
+        {
+          "systemSetings-empower":"授权账号",
+          "child":{
+            //授权帐号 account 
+            //name:"添加授权",
+            "account_add":"account_add",
+            //name:"编辑",
+            "account_edit":"account_edit",
+            //name:"删除",
+            "account_del":"account_del",
+            //name:"禁用",
+            "account_prohibit":"account_prohibit"
+          }
+        },
+        {
+          "systemSetings-role":"角色管理",
+          "child":{
+            //name:"新增角色",
+            "role_getNumber":"role_getNumber",
+            //name:"编辑",
+            "role_editLogistics":"role_editLogistics"
+          }
+        },
+        {
+          "systemSetings-staff":"用户管理",
+          "child":{
+              //name:"分配权限数据",
+            "staff_power":"staff_power",
+            //name:"启用/禁用",
+            "staff_disable":"staff_disable",
+            //name:"新增员工",
+            "staff_addStaff":"staff_addStaff",
+            //name:"详情",
+            "staff_details":"staff_details",
+            //name:"编辑",
+            "staff_edit":"staff_edit",
+            //name:"删除",
+            "staff_del":"staff_del"
+          }
+        },
+        {
+          "systemSetings-rechange":"平台充值",
+          "child":{
+            "recharge_recharge":"recharge_recharge",
+            "name":"充值消费历史",
+            "recharge_history":"recharge_history"
+          }
+        }
+      ]
+    }
+}
+
+
+
